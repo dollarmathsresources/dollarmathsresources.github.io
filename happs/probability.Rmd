@@ -1,0 +1,50 @@
+---
+title: "3 Practice Questions - Probability"
+output: webexercises::webexercises_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(webexercises)
+```
+
+
+```{r, echo = FALSE, results='asis'}
+# Uncomment to change widget colours:
+#style_widgets(incorrect = "goldenrod", correct = "purple")
+```
+
+## Question 1
+
+A shop sells different packs of fruit, with some grown in the UK and some imported. The table below shows the packs in stock.
+
+|  | Apples | Plums | Strawberries | 
+|:----:|:----:|:----:|:----:|
+| UK-grown | 12 | 9 | 11 |
+| Imported | 7 | 8 | 3 |
+
+A pack of fruit is chosen from those in stock at random.
+
+#### (a)
+
+The probability that the pack is of **apples which were imported** is `r fitb(7)` out of `r fitb(50)`.
+
+The probability that the pack is of **apples which were imported** is `r fitb(7)` out of `r fitb(50)`.
+
+The probability that the pack is of **apples which were imported** is `r fitb(7)` out of `r fitb(50)`.
+
+#### (b)
+
+The probability that the pack is **not apples**, as a **decimal**, is `r fitb(0.62)`.
+
+The probability that the pack is **not apples**, as a **decimal**, is `r fitb(0.62)`.
+
+The probability that the pack is **not apples**, as a **decimal**, is `r fitb(0.62)`.
+
+#### (c)
+
+The probability that the pack chosen is **plums or UK-grown**, as a **percentage**, is `r fitb(80)`%. 
+
+The probability that the pack chosen is **plums or UK-grown**, as a **percentage**, is `r fitb(80)`%. 
+
+The probability that the pack chosen is **plums or UK-grown**, as a **percentage**, is `r fitb(80)`%. 

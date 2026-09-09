@@ -1,5 +1,5 @@
 ---
-title: "3 Practice Questions - Probability"
+title: "Practice Questions - Probability"
 output: webexercises::webexercises_default
 ---
 
@@ -14,7 +14,42 @@ library(webexercises)
 #style_widgets(incorrect = "goldenrod", correct = "purple")
 ```
 
+---
+
 ## Question 1
+
+A large garage employs a mix of full-time and part-time staff, made up of both mechanics and office workers.
+
+|  | Mechanic | Office |
+|:----:|:----:|:----:|
+| Full-time | 4 | 3 |
+| Part-time | 1 | 2 |
+
+A member of staff is chosen at random to be interviewed about how they like working at the garage.
+
+#### (a) Give each probability as a **fraction**.
+
+The probability the member of staff is **a part-time mechanic** is `r fitb(1)` out of `r fitb(10)`.
+
+The probability the member of staff is **a full-time office worker** is `r fitb(3)` out of `r fitb(10)`.
+
+
+#### (b) Give each probability as a **decimal**.
+
+The probability the member of staff is **full-time** is `r fitb(c("0.7","0.70"))`.
+
+The probability the member of staff is **mechanic** is `r fitb(c("0.5","0.50"))`.
+
+
+#### (c) Give each probability as a **percentage**.
+
+P(mechanic **or** part-time) =  `r fitb(70)`%. 
+
+P(office worker **or** full-time) = `r fitb(90)`%. 
+
+---
+
+## Question 2
 
 A shop sells different packs of fruit, with some grown in the UK and some imported. The table below shows the packs in stock.
 
@@ -25,26 +60,55 @@ A shop sells different packs of fruit, with some grown in the UK and some import
 
 A pack of fruit is chosen from those in stock at random.
 
+#### (a) Give each probability as a **fraction**.
+
+The probability that the pack is of **apples which were imported** is `r fitb(7)` out of `r fitb(50)`.
+
+The probability that the pack is of **strawberries which were not imported** is `r fitb(11)` out of `r fitb(50)`.
+
+The probability that the pack is of **plums** is `r fitb(17)` out of `r fitb(50)`.
+
+#### (b) Give each probability as a **decimal**.
+
+The probability that the pack is **UK-grown** is `r fitb(0.64)`.
+
+The probability that the pack is **not apples** is `r fitb(0.62)`.
+
+The probability that the pack is **imported but not plums** is `r fitb(c("0.20","0.2"))`.
+
+#### (c) Give each probability as a **percentage**.
+
+The probability that the pack chosen is **plums or UK-grown** is `r fitb(80)`%. 
+
+The probability that the pack chosen is **apples or imported** is `r fitb(60)`%. 
+
+The probability that the pack chosen is **plums or strawberries** is `r fitb(62)`%. 
+
+---
+
+## Question 3
+
 #### (a)
 
-The probability that the pack is of **apples which were imported** is `r fitb(7)` out of `r fitb(50)`.
+The probability that a randomly selected car parked on a town centre street is parked without a ticket is 15%. If there are 80 cars parked on a street, calculate how many would be expected to be parked without a ticket.
 
-The probability that the pack is of **apples which were imported** is `r fitb(7)` out of `r fitb(50)`.
-
-The probability that the pack is of **apples which were imported** is `r fitb(7)` out of `r fitb(50)`.
+Answer: `r fitb(12)` cars.
 
 #### (b)
 
-The probability that the pack is **not apples**, as a **decimal**, is `r fitb(0.62)`.
 
-The probability that the pack is **not apples**, as a **decimal**, is `r fitb(0.62)`.
+A student sits a multiple choice exam containing 40 questions, each with possible answers from A to E.
 
-The probability that the pack is **not apples**, as a **decimal**, is `r fitb(0.62)`.
+If the student guesses a choice at random, the probability they will get it correct is `r fitb(1)` in `r fitb(5)`.
+
+If they guess every question, calculate how many questions they might expect to get correct.
+
+Answer: `r fitb(8)` questions.
 
 #### (c)
 
-The probability that the pack chosen is **plums or UK-grown**, as a **percentage**, is `r fitb(80)`%. 
+A factory makes light bulbs. The probability that a newly produced light bulb will not work due to some flaw in the production process is known to be 2%.
 
-The probability that the pack chosen is **plums or UK-grown**, as a **percentage**, is `r fitb(80)`%. 
+Each hour, the factory makes 300 bulbs. Calculate the expected number of non-working bulbs made by the factory during an eight-hour shift.
 
-The probability that the pack chosen is **plums or UK-grown**, as a **percentage**, is `r fitb(80)`%. 
+Answer: `r fitb(48)` bulbs.

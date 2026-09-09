@@ -1,0 +1,86 @@
+---
+title: "Higher Apps Practice Questions: 2.1 Probability"
+output: webexercises::webexercises_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(webexercises)
+```
+
+
+```{r, echo = FALSE, results='asis'}
+# Uncomment to change widget colours:
+#style_widgets(incorrect = "goldenrod", correct = "purple")
+```
+
+
+<hr>
+
+### Question 1
+
+<hr>![](images/Q0211.png)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A0211.png)
+`r unhide()`
+
+<hr>
+
+### Question 2
+
+<hr>![](images/Q0212.png)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A0212.png)
+`r unhide()`
+
+<hr>
+
+### Question 3
+
+<hr>![](images/Q0213.png)
+
+`r hide("Hint")`
+
+Hint here.
+
+`r unhide()`
+
+`r hide("Answer")`
+
+Answer here.
+
+`r unhide()`
+
+`r hide("Solution")`
+
+![](images/A0213.png)
+`r unhide()`
+

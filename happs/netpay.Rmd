@@ -1,0 +1,73 @@
+---
+title: "Higher Apps Practice Questions: 3.5 Net Pay"
+output: webexercises::webexercises_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(webexercises)
+```
+
+
+```{r, echo = FALSE, results='asis'}
+# Uncomment to change widget colours:
+#style_widgets(incorrect = "goldenrod", correct = "purple")
+```
+
+---
+
+### Question 1
+
+Morgan earns an annual salary of £42,500. They pay annual Income Tax of £5,840, annual National Insurance contributions of £2,316, and annual workplace pension contributions of £2,125.
+
+Calculate Morgan’s annual net pay.
+
+Answer: £`r fitb(32219)`
+
+`r hide("Worked solution")`
+
+Total annual deductions = £`r fitb(10281)`
+
+Annual net pay = £`r fitb(32219)`
+
+`r unhide()`
+
+---
+
+### Question 2
+
+Aisha earns £2,850 per month. Her monthly Income Tax is £372.40, and her monthly National Insurance contribution is £146.80. She also contributes 4% of her gross monthly pay to her workplace pension.
+
+Calculate Aisha’s monthly net pay.
+
+Answer: £`r fitb("2216.80")`
+
+`r hide("Worked solution")`
+
+Monthly pension contribution = £`r fitb(114)`
+
+Total monthly deductions = £`r fitb("663.20")`
+
+Monthly net pay = £`r fitb("2216.80")`
+
+`r unhide()`
+
+---
+
+### Question 3
+
+Lewis earns an annual salary of £36,600. His annual Income Tax has been calculated as £4,280, and he pays annual National Insurance contributions of £1,795. He also contributes 6% of his gross annual salary to his workplace pension.
+
+Calculate Lewis’s annual net pay.
+
+Answer: £`r fitb(28329)`
+
+`r hide("Worked solution")`
+
+Annual pension contribution = £`r fitb(2196)`
+
+Total annual deductions = £`r fitb(8271)`
+
+Annual net pay = £`r fitb(28329)`
+
+`r unhide()`

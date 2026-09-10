@@ -1,0 +1,99 @@
+---
+title: "Higher Apps Practice Questions: 3.2 Pensions"
+output: webexercises::webexercises_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(webexercises)
+```
+
+
+```{r, echo = FALSE, results='asis'}
+# Uncomment to change widget colours:
+#style_widgets(incorrect = "goldenrod", correct = "purple")
+```
+
+
+<hr>
+
+### Question 1
+
+Bob earns an annual salary of £32,400 and he pays 2.8\% of her earnings into his pension fund. His employer also contributes 5.4\% of the same earnings into his pension fund. Calculate Bob's \textbf{monthly} taxable pay.
+
+Answer: £`r fitb("2624.40")`
+
+`r hide("Steps")`
+
+Monthly salary = £`r fitb(2700)`
+
+Monthly pension contribution = £`r fitb("75.60")`
+
+Monthly taxable pay = £`r fitb("2624.40")`
+
+`r unhide()`
+
+<hr>
+
+### Question 2
+
+Callum earns an annual salary of £39,600. He pays 3.5% of his earnings into his pension fund. His employer also contributes 5.8% of the same earnings.
+
+Calculate Callum’s monthly taxable pay after his pension contribution has been deducted.
+
+Answer: £`r fitb("3184.50")`
+
+`r hide("Steps")`
+
+Monthly salary = £`r fitb(3300)`
+
+Monthly pension contribution = £`r fitb("115.50")`
+
+Monthly taxable pay = £`r fitb("3184.50")`
+
+`r unhide()`
+
+<hr>
+
+### Question 3
+
+Priya earns a monthly salary of £2,750. She pays 5.2% of her earnings into her pension fund. Her employer also contributes 7.3% of the same earnings.
+
+Calculate the total amount paid into Priya’s pension fund annually.
+
+Answer: £`r fitb(4125)`
+
+`r hide("Steps")`
+
+Her monthly contribution = £`r fitb(143)`
+
+Her employer's monthly contribution  = £`r fitb(200.75)`
+
+Total monthly contribution  = £`r fitb(343.75)`
+
+Total annual contribution = £`r fitb(4125)`
+
+`r unhide()`
+
+<hr>
+
+### Question 4
+
+Lewis earns an annual salary of £46,800. He pays 4.2% of his earnings into his pension fund. His employer also contributes 6.9% of the same earnings.
+
+Calculate Lewis’s monthly taxable pay after his pension contribution has been deducted.
+
+Answer: £`r fitb("3736.20")`
+
+`r hide("Steps")`
+
+Monthly salary = £`r fitb(3900)`
+
+Monthly pension contribution = £`r fitb("163.80")`
+
+Monthly taxable pay = £`r fitb("3736.20")`
+
+`r unhide()`
+
+<hr>
+

@@ -1,5 +1,5 @@
 ---
-title: "Higher Apps Practice Questions: 2.3 Tree Diagrams"
+title: "Higher Apps Practice Questions: 3.1 Gross Pay"
 output: webexercises::webexercises_default
 ---
 
@@ -19,68 +19,48 @@ library(webexercises)
 
 ### Question 1
 
-<hr>![](images/Q02301.png)
+<hr>![](images/Q0231.png)
 
 `r hide("Hint")`
 
-Hint here.
+Multiplying along a chain gives the probability of both those events happening.
+
+For example, P(attends a fitness class **and** buys a drink) $=\dfrac{3}{7}\times\dfrac{2}{3}=\dfrac{2}{7}$.
+
+Some parts involve adding together several of these end probabilities.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer here.
+(a) P(fitness class and buys a drink) $=\dfrac{3}{7}\times\dfrac{2}{3}=\dfrac{2}{7}$
 
-`r unhide()`
+(b) P(no fitness class and does not buy a drink) $=\dfrac{4}{7}\times\dfrac{3}{4}=\dfrac{3}{7}$
 
-`r hide("Solution")`
+(c) P(buys a drink) $=\dfrac{2}{7}+\dfrac{1}{7}=\dfrac{3}{7}$
 
-![](images/A02301.png)
+(d) P(fitness class or buys a drink) $=\dfrac{2}{7}+\dfrac{1}{7}+\dfrac{1}{7}=\dfrac{4}{7}$
+
 `r unhide()`
 
 <hr>
 
 ### Question 2
 
-<hr>![](images/Q02302.png)
-
-`r hide("Hint")`
-
-Hint here.
-
-`r unhide()`
+<hr>![](images/Q0232.png)
 
 `r hide("Answer")`
 
-Answer here.
+(a) P(both blue) $=\dfrac{28}{55}$
+(b) P(both green) $=\dfrac{3}{55}$
+(c) P(one of each colour) $=\dfrac{12}{55}+\dfrac{12}{55}=\dfrac{24}{55}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Completed tree diagram")`
 
-![](images/A02302.png)
-`r unhide()`
-
-<hr>
-
-### Question 3
-
-<hr>![](images/Q02303.png)
-
-`r hide("Hint")`
-
-Hint here.
+![](images/A0232.png)
 
 `r unhide()`
 
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
-
-`r hide("Solution")`
-
-![](images/A02303.png)
-`r unhide()`
 

@@ -19,68 +19,38 @@ library(webexercises)
 
 ### Question 1
 
-<hr>![](images/Q02201.png)
+<hr>![](images/Q0221.png)
 
 `r hide("Hint")`
 
-Hint here.
+Start with the 21 belonging to all three clubs. Next, remember that the 48 in Art and Music includes those 21 in the middle. So how many should go in the other part of the diagram representing Art and Music?
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer here.
+$\dfrac{27}{240}$ or $\dfrac{9}{80}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Completed Venn diagram")`
 
-![](images/A02201.png)
+![](images/A0221.png)
 `r unhide()`
 
 <hr>
 
 ### Question 2
 
-<hr>![](images/Q02202.png)
-
-`r hide("Hint")`
-
-Hint here.
-
-`r unhide()`
+<hr>![](images/Q0222.png)
 
 `r hide("Answer")`
 
-Answer here.
+$\dfrac{32}{180}$ or $\dfrac{8}{45}$
 
 `r unhide()`
 
-`r hide("Solution")`
+`r hide("Completed Venn diagram")`
 
-![](images/A02202.png)
+![](images/A0222.png)
 `r unhide()`
-
-<hr>
-
-### Question 3
-
-<hr>![](images/Q02203.png)
-
-`r hide("Hint")`
-
-Hint here.
-
-`r unhide()`
-
-`r hide("Answer")`
-
-Answer here.
-
-`r unhide()`
-
-`r hide("Solution")`
-
-![](images/A02203.png)
-`r unhide()`
-

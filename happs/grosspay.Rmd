@@ -1,0 +1,113 @@
+---
+title: "Higher Apps Practice Questions: 3.1 Gross Pay"
+output: webexercises::webexercises_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(webexercises)
+```
+
+
+```{r, echo = FALSE, results='asis'}
+# Uncomment to change widget colours:
+#style_widgets(incorrect = "goldenrod", correct = "purple")
+```
+
+
+<hr>
+
+### Question 1
+
+A car salesperson earns an annual salary of £36,000, as well as 6% commission on the total value of sales they make. They also receive a £150 bonus in any month during which their sales exceed £8,000.
+
+In April, they made sales worth a total of £9,500.
+
+Calculate their gross pay for April.
+
+Answer: £`r fitb(3720)`
+
+`r hide("Steps")`
+
+Monthly salary = £`r fitb(3000)`
+
+Commission = £`r fitb(570)`
+
+Gross pay = £`r fitb(3720)`
+
+`r unhide()`
+
+<hr>
+
+### Question 2
+
+A travel agent earns an annual salary of £28,800, as well as 4% commission on the total value of holidays they sell. They also receive a £200 bonus in any month during which their sales exceed £12,000.
+
+In June, they sold holidays worth a total of £11,750.
+
+Calculate their gross pay for June.
+
+Answer: £`r fitb(2870)`
+
+`r hide("Steps")`
+
+Monthly salary = £`r fitb(2400)`
+
+Commission = £`r fitb(470)`
+
+Bonus = £`r fitb(0)`
+
+Gross pay = £`r fitb(2870)`
+
+`r unhide()`
+
+<hr>
+
+### Question 3
+
+A warehouse employee is paid £14.40 per hour for the first 35 hours worked each week. Any hours worked beyond 35 hours are paid at time-and-a-half. The employee also receives commission equal to 3% of the value of their weekly sales.
+
+In one week, they worked 43 hours and made sales worth £2,800.
+
+Calculate their gross pay for that week.
+
+Answer: £`r fitb("760.80")`
+
+`r hide("Steps")`
+
+Basic pay = £`r fitb(504)`
+
+Overtime pay = £`r fitb("172.80")`
+
+Commission = £`r fitb(84)`
+
+Gross pay = £`r fitb("760.80")`
+
+`r unhide()`
+
+<hr>
+
+### Question 4
+
+A fitness centre employee is paid £12.80 per hour for the first 40 hours worked each week. Any hours worked beyond 40 hours are paid at double time. The employee also receives commission equal to 6% of the value of memberships they sell.
+
+In one week, they worked 45 hours and sold memberships worth £2,250.
+
+Calculate their gross pay for that week.
+
+Answer: £`r fitb(775)`
+
+`r hide("Steps")`
+
+Basic pay = £`r fitb(512)`
+
+Overtime pay = £`r fitb(128)`
+
+Commission = £`r fitb(135)`
+
+Gross pay = £`r fitb(775)`
+
+`r unhide()`
+
+<hr>
+

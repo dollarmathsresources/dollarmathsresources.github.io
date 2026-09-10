@@ -23,19 +23,16 @@ library(webexercises)
 
 `r hide("Hint")`
 
-Hint here.
+Probability can be found as: $\dfrac{\text{number of "successes"}}{\text{total number}}$.
+
+Start by counting how many young people are on the table altogether.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer here.
+$\dfrac{24}{70}$ or $\dfrac{12}{35}$
 
-`r unhide()`
-
-`r hide("Solution")`
-
-![](images/A0211.png)
 `r unhide()`
 
 <hr>
@@ -46,19 +43,14 @@ Answer here.
 
 `r hide("Hint")`
 
-Hint here.
+Look at all those which meet the **coffee** condition, then **remove** those which were **small**.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer here.
+$\dfrac{40}{89}$
 
-`r unhide()`
-
-`r hide("Solution")`
-
-![](images/A0212.png)
 `r unhide()`
 
 <hr>
@@ -69,18 +61,14 @@ Answer here.
 
 `r hide("Hint")`
 
-Hint here.
+For "Adventure **or** Premium", make sure you include **all** those which were Adventure, *and* **all** those which were Premium.
 
 `r unhide()`
 
 `r hide("Answer")`
 
-Answer here.
+$\dfrac{62}{107}$
 
 `r unhide()`
 
-`r hide("Solution")`
-
-![](images/A0213.png)
-`r unhide()`
 

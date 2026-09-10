@@ -1,0 +1,20 @@
+---
+title: "Higher Apps Practice Questions: 1.3 Linear Relationships"
+output: webexercises::webexercises_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(webexercises)
+```
+
+
+```{r, echo = FALSE, results='asis'}
+# Uncomment to change widget colours:
+#style_widgets(incorrect = "goldenrod", correct = "purple")
+```
+
+<hr>
+
+Coming soon!
+

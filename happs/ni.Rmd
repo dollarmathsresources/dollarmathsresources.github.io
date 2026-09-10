@@ -1,0 +1,169 @@
+---
+title: "Higher Apps Practice Questions: 3.3 National Insurance"
+output: webexercises::webexercises_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(webexercises)
+```
+
+
+```{r, echo = FALSE, results='asis'}
+# Uncomment to change widget colours:
+#style_widgets(incorrect = "goldenrod", correct = "purple")
+```
+
+
+<hr>
+
+## National Insurance Information
+
+You begin paying National Insurance once you earn more than £1,048 a month. This is the threshold for the 2025/26 tax year.
+
+For payslips dated between 6 April 2025 and 5 April 2026, you pay:
+
+- 8% of monthly earnings between £1,048 and £4,189;
+- 2% of monthly earnings above £4,189.
+
+National Insurance is calculated using a person’s salary before deductions such as pension contributions.
+
+---
+
+### Question 1
+
+Aisha earns a monthly salary of £3,650.
+
+Calculate her total annual National Insurance contributions.
+
+Answer: £`r fitb(2497.92)`
+
+`r hide("Worked solution")`
+
+Aisha earns less than £4,189 per month, so she pays National Insurance at 8% on the part of her salary above £1,048.
+
+Monthly earnings subject to National Insurance:
+
+\[
+£3,650-£1,048=£2,602
+\]
+
+Monthly National Insurance contribution:
+
+\[
+£2,602\times 0.08=£208.16
+\]
+
+Annual National Insurance contribution:
+
+\[
+£208.16\times 12=£2,497.92
+\]
+
+Therefore, Aisha’s total annual National Insurance contributions are:
+
+\[
+\boxed{£2,497.92}
+\]
+
+`r unhide()`
+
+---
+
+### Question 2
+
+Marcus earns an annual salary of £60,120. He pays £4,560 into his pension fund each year.
+
+Calculate his monthly National Insurance contribution.
+
+Answer: £`r fitb("267.70")`
+
+`r hide("Worked solution")`
+
+National Insurance is calculated before the pension contribution is deducted. Therefore, the pension contribution does not affect the calculation.
+
+Marcus’s monthly salary is:
+
+\[
+£60,120\div 12=£5,010
+\]
+
+Marcus pays 8% on his monthly earnings between £1,048 and £4,189.
+
+Earnings in the 8% band:
+
+\[
+£4,189-£1,048=£3,141
+\]
+
+National Insurance at 8%:
+
+\[
+£3,141\times 0.08=£251.28
+\]
+
+Marcus also pays 2% on his monthly earnings above £4,189.
+
+Earnings in the 2% band:
+
+\[
+£5,010-£4,189=£821
+\]
+
+National Insurance at 2%:
+
+\[
+£821\times 0.02=£16.42
+\]
+
+Total monthly National Insurance contribution:
+
+\[
+£251.28+£16.42=£267.70
+\]
+
+Therefore, Marcus’s monthly National Insurance contribution is:
+
+\[
+\boxed{£267.70}
+\]
+
+`r unhide()`
+
+---
+
+### Question 3
+
+Euan earns a monthly salary of £980.
+
+State his monthly National Insurance contributions.
+
+Answer: £`r fitb(0)`
+
+`r hide("Worked solution")`
+
+A person begins paying National Insurance once they earn more than £1,048 per month.
+
+Euan earns:
+
+\[
+£980
+\]
+
+Since:
+
+\[
+£980<£1,048
+\]
+
+Euan does not pay any National Insurance each month.
+
+
+Therefore, Euan’s monthly National Insurance contributions are:
+
+\[
+\boxed{£0}
+\]
+
+`r unhide()`
+

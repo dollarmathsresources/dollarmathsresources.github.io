@@ -16,5 +16,63 @@ library(webexercises)
 
 <hr>
 
-Coming soon!
+For each, clearly state any **assumptions** made.
+
+### Question 1
+
+The population of a town is is 63,427. Estimate the number of photos in total people in the town have stored on mobile phones.
+
+`r hide("Example Answer")`
+
+Assume that:
+
+- 50,000 people have photos stored on their phones. (Since not every single person will have a phone, the number chosen should be less than 63,427).
+
+- On average a person has 300 photos stored on their phone. (Or chose some other number).
+
+$\text{Photos stored}=50000\times300=15,000,000$
+
+`r unhide()`
+
+<hr>
+
+### Question 2
+
+Estimate the total number of cups of tea and coffee consumed by a typical person during their lifetime.
+
+`r hide("Example Answer")`
+
+Assume that:
+
+- A typical person spends 60 years of their life drinking tea. (Or choose more or less, though anything approaching 90 years is probably far more than the 'typical' person).
+
+- A typical person drinks two cups per day.
+
+$\text{Cups drunk}=60\times 365\times2=43,800$
+
+*Note: There aren't precisely 365 days in each year, but for the purpose of an estimation this number is perfectly reasonable to use.*
+
+`r unhide()`
+
+<hr>
+
+### Question 3
+
+Estimate the total number of text messages sent by all pupils in a secondary school during the summer holidays.
+
+`r hide("Example Answer")`
+
+Assume that:
+
+- The summer lasts 7 weeks, so $7\times 6=42$ days. (Or anything from 30 days to 50 days).
+
+- There are 700 pupils in the school. (Or anything from 100 to 3000, realistically, in Scotland).
+
+- On average a pupil sends 5 text messages a day. (Some will send many more, some will send none).
+
+$\text{Texts sent}=42\times 700\times5=147,000$
+
+`r unhide()`
+
+<hr>
 
